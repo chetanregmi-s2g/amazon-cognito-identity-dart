@@ -666,7 +666,6 @@ class CognitoUser {
 
     final data =
         await respondToChallenge('NEW_PASSWORD_REQUIRED', challengeResponses);
-    print(data);
   }
 
   /// This is used by the user once he has the responses to a custom challenge
